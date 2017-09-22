@@ -2,11 +2,14 @@
 layout: default
 ---
 
-# [](#header-1)Bienvenid@s a la Pagina de **Juan Jose**.
-# [](#header-1)En esta pagina conoceras diferentes curiosidades relacionadas con la informática
-
-###Enlaces de interes de la pagina:
-
-
-* [Sobre Mi](/contenido/sobremi)
-<hr/>
+# [](#header-1)Sobre Mi.
+# [](#header-2)Informacion Sobre JuanJoselo
+***
+Hola a tod@s esta pagina va destinada a mostrarles a los internautas curiosidades sobre el mundo de la informática
+<dl>
+<dt>Nombre y Apellidos</dt>
+<dd>Juan Jose Lopez</dd>
+<dt>Estudios</dt>
+<dd>Ciclo Formativo Grado Medio de Sistemas Microinformáticos y Redes</dd>
+<dd>Clclo Formativo Grado Superior de Administración de Sistemas Operativos en Red (Cursando)</dd>
+</dl>
