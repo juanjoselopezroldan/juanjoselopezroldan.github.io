@@ -2,28 +2,28 @@
 layout: default
 ---
 
-Text can be **bold**, _italic_, or ~~strikethrough~~.
+Text can be **bold**, _italic_, or ~~strikethrough~~. -> Estilos de letra
 
-[Link to another page](another-page).
+[Link to another page](another-page). -> enlace hacia otro lugar
 
 There should be whitespace between paragraphs.
 
 There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
 
-# [](#header-1)Header 1
+# [](#header-1)Header 1 -> titulo 1
 
 This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
 
-## [](#header-2)Header 2
+## [](#header-2)Header 2 -> titulo 2
 
-> This is a blockquote following a header.
+> This is a blockquote following a header. -> poner la letra en un segundo plano
 >
 > When something is important enough, you do it even if the odds are not in your favor.
 
-### [](#header-3)Header 3
+### [](#header-3)Header 3 -> titulo 3
 
 ```js
-// Javascript code with syntax highlighting.
+// Javascript code with syntax highlighting. -> modo pantalla comandos con fondo negro
 var fun = function lang(l) {
   dateformat.i18n = require('./lang/' + l)
   return true;
@@ -37,48 +37,48 @@ GitHubPages::Dependencies.gems.each do |gem, version|
 end
 ```
 
-#### [](#header-4)Header 4
+#### [](#header-4)Header 4 -> titulo 4
 
-*   This is an unordered list following a header.
+*   This is an unordered list following a header. -> modo lista
 *   This is an unordered list following a header.
 *   This is an unordered list following a header.
 
-##### [](#header-5)Header 5
+##### [](#header-5)Header 5 -> titulo 5
 
 1.  This is an ordered list following a header.
-2.  This is an ordered list following a header.
+2.  This is an ordered list following a header. -> lista numerada
 3.  This is an ordered list following a header.
 
-###### [](#header-6)Header 6
+###### [](#header-6)Header 6 -> titulo 6
 
 | head1        | head two          | three |
 |:-------------|:------------------|:------|
-| ok           | good swedish fish | nice  |
+| ok           | good swedish fish | nice  |  -> modo tabla
 | out of stock | good and plenty   | nice  |
 | ok           | good `oreos`      | hmm   |
 | ok           | good `zoute` drop | yumm  |
 
-### There's a horizontal rule below this.
+### There's a horizontal rule below this. -> titulo normal
 
-* * *
+* * * -> linea de puntos
 
 ### Here is an unordered list:
 
-*   Item foo
+*   Item foo -> modo lista
 *   Item bar
 *   Item baz
 *   Item zip
 
 ### And an ordered list:
 
-1.  Item one
+1.  Item one  -> lista numerada
 1.  Item two
 1.  Item three
 1.  Item four
 
 ### And a nested list:
 
-- level 1 item
+- level 1 item  -> modo lista con sublistas
   - level 2 item
   - level 2 item
     - level 3 item
@@ -94,16 +94,16 @@ end
 
 ### Small image
 
-![](https://assets-cdn.github.com/images/icons/emoji/octocat.png)
+![](https://assets-cdn.github.com/images/icons/emoji/octocat.png) -> incluir imagen
 
 ### Large image
 
-![](https://guides.github.com/activities/hello-world/branching.png)
+![](https://guides.github.com/activities/hello-world/branching.png) -> incluir imagen
 
 
 ### Definition lists can be used with HTML syntax.
 
-<dl>
+<dl>    -> modo lista de datos como descripcion sobre mi
 <dt>Name</dt>
 <dd>Godzilla</dd>
 <dt>Born</dt>
@@ -115,9 +115,9 @@ end
 </dl>
 
 ```
-Long, single-line code blocks should not wrap. They should horizontally scroll if they are too long. This line should be long enough to demonstrate this.
+Long, single-line code blocks should not wrap. They should horizontally scroll if they are too long. This line should be long enough to demonstrate this. -> modo terminal
 ```
 
 ```
-The final element.
+The final element. -> modo terminal final
 ```
