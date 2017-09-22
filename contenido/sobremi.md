@@ -5,7 +5,7 @@ layout: default
 # [](#header-1)Sobre Mi.
 # [](#header-2)Informacion Sobre JuanJoselo
 ***
-Hola a tod@s esta pagina va destinada a mostrarles a los internautas curiosidades sobre el mundo de la informática mostrando asi una gran variedad de todo tipo relacionado con el ambito
+Hola a tod@s esta pagina va destinada a mostrarles a los internautas curiosidades sobre el mundo de la informática mostrando asi una gran variedad de todo tipo relacionado con el ambito.
 <dl>
 <dt>Nombre y Apellidos</dt>
 <dd>Juan Jose Lopez</dd>
