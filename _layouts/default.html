@@ -15,7 +15,11 @@
         <h1>{{ site.title | default: site.github.repository_name }}</h1>
         <h2>{{ site.description | default: site.github.project_tagline }}</h2>
       </div>
-        <a href= "https://juanjoselopezroldan.github.io/juanjoselo.github.io" class="btn">Inicio</a>
+      <section id="downloads">
+       {% if site.show_downloads %}
+        <<a href= "https://juanjoselopezroldan.github.io/juanjoselo.github.io" class="btn">Inicio</a>
+        {% endif %}
+      </section>
     </header>
 
     <div class="container">
