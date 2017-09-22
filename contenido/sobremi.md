@@ -10,6 +10,6 @@ Hola a tod@s esta pagina va destinada a mostrarles a los internautas curiosidade
 <dt>Nombre y Apellidos</dt>
 <dd>Juan Jose Lopez</dd>
 <dt>Estudios</dt>
-* <dd>Ciclo Formativo Grado Medio de Sistemas Microinformáticos y Redes.</dd>
-* <dd>Clclo Formativo Grado Superior de Administración de Sistemas Operativos en Red (Cursando).</dd>
+<dd>Ciclo Formativo Grado Medio de Sistemas Microinformáticos y Redes.</dd>
+<dd>Clclo Formativo Grado Superior de Administración de Sistemas Operativos en Red (Cursando).</dd>
 </dl>
