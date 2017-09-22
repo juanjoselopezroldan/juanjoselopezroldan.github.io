@@ -2,6 +2,15 @@
 layout: default
 ---
 
+Bienvenid@s a la Pagina de **Juan Jose**.
+En esta pagina conoceras diferentes curiosidades relacionadas con la informática
+
+Enlaces de interes de la pagina:
+
+
+* [Ejercicios y prácticas de módulos de ASIR y SMR](/contenido/sobremi)
+<hr/>
+
 Text can be **bold**, _italic_, or ~~strikethrough~~.
 
 [Link to another page](another-page).
