@@ -2,6 +2,7 @@
 layout: default
 ---
 
+[back](./)
 # [](#header-1)Sobre Mi.
 # [](#header-2)Informacion Sobre JuanJoselo
 ***
