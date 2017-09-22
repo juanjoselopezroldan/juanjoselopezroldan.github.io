@@ -8,5 +8,5 @@ layout: default
 ### Enlaces de interes de la pagina:
 
 
-* [Sobre Mi](/contenido/sobremi)
+* [Sobre Mi](contenido/sobremi)
 <hr/>
