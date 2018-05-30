@@ -11,7 +11,8 @@ Para realizar la gestion de GitHub mediante linea de comandos tendremos que util
 
 ```
 apt update
-
+```
+```
 apt install git
 ```
 
