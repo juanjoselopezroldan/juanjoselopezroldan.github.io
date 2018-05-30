@@ -9,15 +9,11 @@ Para realizar la gestion de GitHub mediante linea de comandos tendremos que util
 <dl>
 <dt>Actualizamos repositorios e instalamos el paquete Git</dt>
 
-```js
+```
 apt update
 
 apt install git
-´´´
+```
 
 <dt></dt>
 
-
-<dd>- Ciclo Formativo Grado Medio de Sistemas Microinformáticos y Redes (Terminado).</dd>
-<dd>- Ciclo Formativo Grado Superior de Administración de Sistemas Operativos en Red (Cursando).</dd>
-</dl>
