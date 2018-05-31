@@ -29,7 +29,12 @@ apt install git -y
 Con estos dos comandos, lo que realizará primero será actualizar la lista de paquetes del sistema y acto seguido instalará el paquete git confirmandolo con la opción **-y**.
 
 ## [](#header-2)Clonado de nuestro repositorio de GitHub.
+En el momento que ya tengamos instalado el repositorio en nuestro sistema, procederemos a realizar la clonación de un directorio que ya tengamos creado en nuestra cuenta GitHub (en el caso que no lo tengamos, procederemos a crearla para posteriormente clonarla).
+
+Para poder realizar la clonación del repositorio a nuestro equipo, tendremos que copiar la url SSH del repositorio (no copiar la url HTTPS), para ello utilizaremos el siguiente comando.
+
+```
+git clone git@github.com:juanjoselopezroldan/github.io.git
+```
 
 
-
- 
