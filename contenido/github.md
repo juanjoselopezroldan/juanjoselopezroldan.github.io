@@ -37,4 +37,18 @@ Para poder realizar la clonación del repositorio a nuestro equipo, tendremos qu
 git clone git@github.com:juanjoselopezroldan/github.io.git
 ```
 
+## [](#header-2)Configuración de git para nuestro repositorio en local clonado.
+Una vez que ya tengamos clonado el repositorio, procederemos a configurar nuestra herramienta git para el repositorio que hemos clonado en local y para ello tendremos que introducir los datos de nuestro nombre, nuestro email (email que hace referencia a la cuenta de GitHub) y ademas comprobaremos que de dicho repositorio está correctamente el fichero README.md, ya que en este fichero podemos poner la descripción del repositorio.
+
+```
+cd "REPOSITORIO CLONADO"
+git config --global user.name "juan jose lopez"
+git config --global user.email cuenta_GitHub@gmail.com
+git commit --amend --reset-author
+```
+
+## [](#header-2)Gestión del repositorio con la herramienta Git.
+En el momento que ya tengamos todo los pasos anteriores terminados, procederemos a gestionar nuestro repositorio a traver de la herramienta git.
+Esta gestión se realizará a traves de la subida de los cambios realizados en local a nuestro correspondiente repositorio en GitHub gracias a la herramienta git, que consiste en un control de versiones.
+A continuación vamos a ver un ejemplo de como se realiza la creación de un fichero y aplicamos ese cambio a nuestro repositorio en la nube.
 
