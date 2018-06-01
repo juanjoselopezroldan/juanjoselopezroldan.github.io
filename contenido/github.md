@@ -2,7 +2,7 @@
 layout: default
 ---
 
-# [](#header-1)Uso Básico de GitHub por linea de comandos (Linux/Debian).
+# [](#header-1)Uso Básico de GitHub por linea de comandos con Git (Linux).
 ***
 Para realizar la gestión de los repositorios GitHub mediante linea de comandos para ir gestionando los proyectos que tengamos en nuestro GitHub, tendremos que utilizar el paquete llamado Git, este paquete no se encuentra instalado en el sistema por ello tendremos que instalarlo con el siguiente comando, pero antes de instalar este comando es recomendable actualizar la lista de repositorios del equipo.
 
