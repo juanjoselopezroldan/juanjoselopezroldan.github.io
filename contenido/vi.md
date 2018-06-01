@@ -15,4 +15,10 @@ Dentro del editor de vi/vim exiten diversos modos que nos permiten realizar dive
 ## [](#header-2)Uso básico de Vi/Vim.
 En este pequeño apartado veremos unos poco comandos básicos que nos permiten sobrevivir a la hora de trabajar con el editor Vi/Vim.
 
-<dt>Abrir un fichero para editarlo</dt>
+<dt>Invocación de vi para edición un fichero</dt>
+<dd>- Abrir una ventana de edición sin abrir ningún tipo de archivo
+  ```vi```
+</dd>
+
+<dd></dd>
+<dd></dd>
