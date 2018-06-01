@@ -8,5 +8,5 @@ layout: default
 ### Enlaces de interes de la pagina:
 
 
-* [Sobre Mi](contenido/sobremi)
+* [Uso Básico de GitHub por linea de comandos con Git (Linux)](contenido/github)
 <hr/>
