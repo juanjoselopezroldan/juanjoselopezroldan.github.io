@@ -17,25 +17,26 @@ En este pequeño apartado veremos unos poco comandos básicos que nos permiten s
 
 <dt>Invocación de vi para edición un fichero</dt>
 <dd>- Abrir una ventana de edición sin abrir ningún tipo de archivo</dd>
-  
-  ```vi```
+
+```vi```
 
 <dd>- Edición de un archivo denominado fich.txt, si no existe lo creará automaticamente</dd>
 
-  ```vi fich.txt```
+```vi fich.txt```
 
 <dd>- Editar sucesivamente los archivos fich1.txt y fich2.txt</dd>
 
-  ```vi fich1.txt fich2.txt```
-  
+```vi fich1.txt fich2.txt```
+
 <dd>- Edita el archivo fich.txt posicionado en la línea 16</dd>
 
-  ```vi +16 fich.txt```
+```vi +16 fich.txt```
 
 <dd>- Edita el archivo fich.txt al final del mismo</dd>
 
-  ```vi +$ fich.txt```
+```vi +$ fich.txt```
 
 <dd>- Edita el archivo fich.txt en la primera ocurrencia indicada detras del "+/"</dd>
 
-   ```vi +/Hola fich.txt```
+```vi +/Hola fich.txt```
+
