@@ -52,3 +52,12 @@ En el momento que ya tengamos todo los pasos anteriores terminados, procederemos
 Esta gestión se realizará a traves de la subida de los cambios realizados en local a nuestro correspondiente repositorio en GitHub gracias a la herramienta git, que consiste en un control de versiones.
 A continuación vamos a ver un ejemplo de como se realiza la creación de un fichero y aplicamos ese cambio a nuestro repositorio en la nube.
 
+```
+touch prueba.txt
+echo  "Texto de prueba" > prueba.txt
+git  add prueba.txt
+git  commit  -m  "He  creado  el  fichero prueba.txt"
+git  push
+```
+
+
