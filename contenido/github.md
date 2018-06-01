@@ -100,7 +100,7 @@ git pull
 
 ## [](#header-2)¿Cómo gestionar los directorios dentro del repositorio?
 Para la gestión de los directorios dentro de un repositorio lo haremos de forma similar a la gestión que realizamos con los ficheros.
-Utilizaremos un **git add "directorio"** para dejar marcar la creación del directorio y su correspondiente **git commit -am "creacion de directorio"** para marcar que ha sido creado y el **git push** para subir la información y la nueva creación del directorio en nuestro repositorio.
+Utilizaremos un ```**git add "directorio"**``` para dejar marcar la creación del directorio y su correspondiente ```**git commit -am "creacion de directorio"**``` para marcar que ha sido creado y el ```**git push**``` para subir la información y la nueva creación del directorio en nuestro repositorio.
 
 ## [](#header-2)Comprobar el estado del repositorio.
 Para finalizar con este breve tutorial del uso de **Git**, vamos a comprobar el estado en el que se encuentra nuestro repositorio clonado en local, para ello introduciremos el siguiente comando:
