@@ -60,4 +60,55 @@ git  commit  -m  "He  creado  el  fichero prueba.txt"
 git  push
 ```
 
+## [](#header-2)Cambios en el fichero.
+Cuando llegue el momento que deseemos realizar cambios en el fichero, si queremos que esos cambios queden en constancia en nuestro repositorio para así tener siempre la información actualizada tendremos que realizar un **commit** que justifique los cambios que hemos hecho en ese fichero, seguido de un comentario que nos oriente de forma resumida el cambio realizado en ese fichero.
+```
+git  commit  -am  "He realizado la primera modificacion en prueba.txt"
+```
+
+Acto seguido si ese cambio que hemos marcado queremos que se suba a nuestro repositorio, tendremos que realizar un push de ese commit que hemos realizado(podemos realizar un push por cada conjunto de **commit**).
+
+```
+git push
+```
+
+## [](#header-2)Cambio de nombre en un fichero o directorio.
+Si queremos renombrar un fichero o directorio en nuestro repositorio que hemos clonado tendremos que utilizar los siguiente comandos.
+
+```
+git mv prueba.txt prueba2.txt
+git commit -am "Renombrado el fichero de prueba"
+git push
+```
+
+## [](#header-2)Borrado de un fichero del repositorio.
+En el caso que deseemos eliminar de nuestro repositorio un fichero, tendrá que realizarse a traves del siguiente comando:
+
+```
+git rm prueba2.txt
+git commit -am "eliminacion del fichero prueba2"
+git push
+```
+
+## [](#header-2)Actualización de la información con nuestro repositorio.
+Si se da el caso en el que nuestro repositorio ha sido modificado por otra persona ó que hemos modificado el repositorio desde otro lugar o desde la web, tendremos que actualizar la información que almacenamos en nuestro directorio en local para así tener la información coherente, que siempre esté actualizada y que contraste con la información del repositorio en remoto.
+Para ello tendremos que introducir el siguiente comando.
+
+```
+git pull
+```
+
+## [](#header-2)¿Cómo gestionar los directorios dentro del repositorio?
+Para la gestión de los directorios dentro de un repositorio lo haremos de forma similar a la gestión que realizamos con los ficheros.
+Utilizaremos un **git add "directorio"** para dejar marcar la creación del directorio y su correspondiente **git commit -am "creacion de directorio"** para marcar que ha sido creado y el **git push** para subir la información y la nueva creación del directorio en nuestro repositorio.
+
+## [](#header-2)Comprobar el estado del repositorio.
+Para finalizar con este breve tutorial del uso de **Git**, vamos a comprobar el estado en el que se encuentra nuestro repositorio clonado en local, para ello introduciremos el siguiente comando:
+
+```
+git status
+```
+
+
+
 
