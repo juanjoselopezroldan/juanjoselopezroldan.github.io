@@ -7,6 +7,6 @@ En esta publicación vamos a ver como se realiza la edición basica con el edito
 ## [](#header-2)Modos que dispone Vi/Vim.
 Dentro del editor de vi/vim exiten diversos modos que nos permiten realizar diversas tareas y tendremos que elegir entre ellas dependiendo de lo que queramos realizar.
 
-<dd> - Modo comando: las teclas nos permite desplazar el cursor por diversas partes del fichero permitiendonos que junto con el 
+<dd> - Modo comando: las teclas nos permite desplazar el cursor por diversas partes del fichero permitiendonos que junto con el realicemos distintas acciones al fichero de cara a la edición.
 <dd> -
 <dd> -
