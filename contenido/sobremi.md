@@ -3,7 +3,7 @@ layout: default
 ---
 
 # [](#header-1)Sobre Mi.
-# [](#header-2)Informacion Sobre JuanJo
+# [](#header-2)Informacion Sobre Juanjo
 ***
 Hola a tod@s esta pagina va destinada a mostrarles utilidades relacionadas con el ambito de la informática para facilitar la administración diaria de tu sistema Linux.
 <dl>
