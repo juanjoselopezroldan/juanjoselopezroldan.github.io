@@ -75,6 +75,45 @@ Para desplazarse por el fichero con el cursos tendremos que realizar el uso de l
 
 Ademas de las flechas tambien tenemos disponibles para podernos mover con el cursor por el fichero las teclas **h,j,k,l**.
 
+### [](#header-3)Borrado del texto desde el modo comando.
+Para poder eliminar líneas de texto desde el modo comando tenemos diversas opciones:
+<dd>- Para eliminar el caracter en el que esta el cursor tendremos que introducir la siguiente opción desde el modo comando.</dd>
+```
+x
+```
+<dd>- Para eliminar una palabra en la que esté situada el cursos desde el modo comando.</dd>
+```
+dw
+```
+<dd>- Para eliminar la fila completa en la que este el cursor situado, tendremos que introducir la siguiente opción desde el modo comando.</dd>
+```
+dd
+```
 
+### [](#header-3)Copiar y pegar.
+<dd>- Para copiar una linea tendremos que introducir el siguiente caracter desde el modo comando.</dd>
+```
+Y ó yy
+```
+<dd>- Para pegar el contenido que hemos copiado anteriormente tendremos que introducir el siguiente caracter desde el modo comando.</dd>
+Antes del cursor
+```
+P
+```
+Despues del cursor
+```
+p
+```
 
+### [](#header-3)Realizar busquedas en el fichero.
+Para realizar busquedas en el fichero, tendremos que introducir desde el modo comando el caracter **"/"** seguido de la palabra a buscar.
 
+En el momento que lo realicemos, tendremos que pulsar **"n"** para mostrar la siguiente coincidencia y si pulsamos **"N"** mostrar la coincidencia anterior.
+
+### [](#header-3)Comentar un conjunto de líneas.
+Para comentar un conjunto de líneas tendremos que realizar los siguiente pasos partiendo desde el principio de las lineas que queramos comentar:
+<dd>- Estando en el principio de las lineas a comentar tendremos que entrar en modo bloque visual (VISUAL BLOCK) con **"Ctrl+v"**</dd>
+
+<dd>- Una vez que hemos entrado en ese modo deslizamos de abajo a arriba para ir seleccionando las lineas a comentar **↑↓**</dd>
+
+<dd>- Acto seguido, cuando ya tengamos seleccionadas las lineas deseadas, procederemos a presionar I (i mayúscula) y escribiremos  </dd>
