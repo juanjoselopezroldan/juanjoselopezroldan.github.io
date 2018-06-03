@@ -71,7 +71,7 @@ Para volver del modo insertar texto al modo comando, tendremos que pulsar la tec
 
 
 ### [](#header-3)Desplazarse por el fichero con el cursor.
-Para desplazarse por el fichero con el cursos tendremos que realizar el uso de las fechas si la terminal lo permite (** ↑ ↓ → ←**).
+Para desplazarse por el fichero con el cursos tendremos que realizar el uso de las fechas si la terminal lo permite (**↑ ↓ → ←**).
 Ademas de las flechas tambien tenemos disponibles para podernos mover con el cursor por el fichero las teclas **hjkl**.
 
 
