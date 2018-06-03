@@ -112,8 +112,8 @@ En el momento que lo realicemos, tendremos que pulsar **"n"** para mostrar la si
 
 ### [](#header-3)Comentar un conjunto de líneas.
 Para comentar un conjunto de líneas tendremos que realizar los siguiente pasos partiendo desde el principio de las lineas que queramos comentar:
-<dd>- Estando en el principio de las lineas a comentar tendremos que entrar en modo bloque visual (VISUAL BLOCK) con **"Ctrl+v"**</dd>
+<dd>- Estando en el principio de las lineas a comentar tendremos que entrar en modo bloque visual (VISUAL BLOCK) con "Ctrl+v"</dd>
 
-<dd>- Una vez que hemos entrado en ese modo deslizamos de abajo a arriba para ir seleccionando las lineas a comentar **↑↓**</dd>
+<dd>- Una vez que hemos entrado en ese modo deslizamos de abajo a arriba para ir seleccionando las lineas a comentar ↑↓</dd>
 
 <dd>- Acto seguido, cuando ya tengamos seleccionadas las lineas deseadas, procederemos a presionar I (i mayúscula) y escribiremos  </dd>
