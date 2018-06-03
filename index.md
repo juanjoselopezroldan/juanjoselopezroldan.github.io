@@ -3,7 +3,7 @@ layout: default
 ---
 
 # [](#header-1)Bienvenid@s a la Pagina de **Juan José**.
-### En esta pagina conoceras diferentes curiosidades relacionadas con la informática.
+### En esta pagina conoceras diferentes curiosidades relacionadas con la informática, siendo utiles para el día a día pero en la administración de tu sistema.
 
 ### Enlaces de la pagina:
 
