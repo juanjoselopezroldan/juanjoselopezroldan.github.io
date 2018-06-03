@@ -90,17 +90,21 @@ dw
 dd
 ```
 
+### [](#header-3)Modo visual para seleccionar el texto.
+Cuando deseemos marcar/seleccionar un fragmento de texto deseado tendremos que pulsar la tecla **v** estando en la linea de comando y con la ayuda de las fechas iremos moviendo el cursor, marcando así las lineas deseadas.
+
+En el caso que queramos copiar un texto seleccionado para posteriormente pegarlo veremos que opción tendremos que utilizar trabajando de manera conjunta con el modo visual en el siguiente punto.
+
 ### [](#header-3)Copiar y pegar.
-<dd>- Para copiar una linea tendremos que introducir el siguiente caracter desde el modo comando.</dd>
+<dd>- Para copiar un texto tendremos que introducir el siguiente caracter desde el modo comando.</dd>
 ```
-Y ó yy
+Y
+```
+<dd>- Para cortar un texto tendremos que introducir el siguiente caracter desde el modo comando:</dd>
+```
+c
 ```
 <dd>- Para pegar el contenido que hemos copiado anteriormente tendremos que introducir el siguiente caracter desde el modo comando.</dd>
-Antes del cursor
-```
-P
-```
-Despues del cursor
 ```
 p
 ```
@@ -116,4 +120,38 @@ Para comentar un conjunto de líneas tendremos que realizar los siguiente pasos 
 
 <dd>- Una vez que hemos entrado en ese modo deslizamos de abajo a arriba para ir seleccionando las lineas a comentar ↑↓</dd>
 
-<dd>- Acto seguido, cuando ya tengamos seleccionadas las lineas deseadas, procederemos a presionar I (i mayúscula) y escribiremos  </dd>
+<dd>- Acto seguido, cuando ya tengamos seleccionadas las lineas deseadas, procederemos a presionar I (i mayúscula) y escribiremos el caracter que va ha ir en la primera linea que en el caso de bash el comentario sería "#"</dd>
+
+<dd>- En el momento que presionemos el caracter a introducir, solamente se agregará el texto a la línea en la que se ubique el cursor, por ello procederemos a pulsar "ESC" y automaticamente modificará todas las líneas marcadas anteriormente (dependiendo de la versión del editor, pueder esperar unos segundos para ver el cambio o mover el cursos para que se aplique)</dd>
+
+### [](#header-3)Descomentar un conjunto de líneas.
+En el caso que queramos descomentar un conjunto de linear tendremos que realizar un proceso similar pero en vez de escribir el caracter, en el momento que tengamos las lineas seleccionadas, tendremos que apretar la letra **d** y borrará todas aquellas lineas que hayan sido marcadas.
+
+### [](#header-3)Reemplazo de texto.
+Si se dá el caso que deseamos reemplazar un caracter o texto concreto por otro en todos los puntos que coincida en el fichero tendremos que introducir lo que aparece a continuación desde el modo comando.
+```
+:%s/cadena a sustituir/cadena nueva/g
+```
+
+### [](#header-3)Salir del editor y guardado de datos.
+Cuando hayamos terminado de editar el texto deseado tendremos que salir de la edicion del fichero, para salir tenemos diferentes opciones que se describirán a coninuación (estas acciones se realizan desde el modo comando):
+
+<dd>- Si queremos salir de la edición sin haber realizado ningun cambio tendremos que introducir lo siguiente:</dd>
+```
+:q
+```
+<dd>- Si queremos salir de la edición pero queremos descartar los cambios que hemos realizado tendremos que introducir lo siguiente:</dd>
+```
+:q!
+```
+<dd>- Si queremos guardar los cambio que hemos realizado tendremos que introducir lo siguiente:</dd>
+```
+:w
+```
+<dd>- Si queremos salir de la edición guardando los cambios que hemos realizado tendremos que introducir lo siguiente:</dd>
+```
+:wq
+```
+
+Con estos aspectos básicos del editor Vi/Vim podremos defendernos en momentos puntuales o modificaciones básicas, incluso llegando a ser buen punto de comienzo para todo aquel que quiera adentrarse en el mundo de vi.
+
