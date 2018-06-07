@@ -12,7 +12,7 @@ En esta publicación vamos a ver de forma breve como vamos a comprimir y descomp
 ```
 tar -cvf fichero.tar /directorio/a/empaquetar
 ```
-   - Descomprimir
+  - Descomprimir
 ```
 tar -xvf fichero.tar
 ```
