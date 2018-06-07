@@ -10,5 +10,5 @@ layout: default
 
 * [Uso Básico de GitHub por linea de comandos con Git (Linux)](contenido/github)
 * [Uso básico de Vi/Vim](contenido/vi)
-* [Comprimir y Descomprimir en tar, zip, .gz y .tar.gz en Linux](contenido/tar)
+* [Comprimir y Descomprimir en .tar, .zip, .gz y .tar.gz en Linux](contenido/tar)
 <hr/>
