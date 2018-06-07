@@ -8,7 +8,7 @@ layout: default
 En esta publicación vamos a ver de forma breve como vamos a comprimir y descomprimir los formatos mas habituales mediante línea de comandos en Linux.
 
 ## [](#header-2)Ficheros .tar
-### [](#header-3) - Comprimir
+*   Comprimir
 ```
 tar -cvf fichero.tar /directorio/a/empaquetar
 ```
