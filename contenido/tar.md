@@ -7,42 +7,42 @@ layout: default
 
 En esta publicación vamos a ver de forma breve como vamos a comprimir y descomprimir los formatos mas habituales mediante línea de comandos en Linux.
 
-## [](#header-2)Ficheros .tar
-*   Comprimir
+- Ficheros .tar
+  - Comprimir
 ```
 tar -cvf fichero.tar /directorio/a/empaquetar
 ```
-### [](#header-3) - Descomprimir
+- Descomprimir
 ```
 tar -xvf fichero.tar
 ```
 
-## [](#header-2)Ficheros .zip
-### [](#header-3) - Comprimir
+- Ficheros .zip
+  - Comprimir
 ```
 zip fichero.zip directorio
 ```
-### [](#header-3) - Descomprimir
+  - Descomprimir
 ```
 unzip fichero.zip
 ```
 
-## [](#header-2)Ficheros .gz
-### [](#header-3) - Comprimir
+- Ficheros .gz
+  -  Comprimir
 ```
 gzip -9 fichero.txt
 ```
-### [](#header-3) - Descomprimir
+  - Descomprimir
 ```
 gzip -d fichero.txt.gz
 ```
 
-## [](#header-2)Ficheros .tar.gz
-### [](#header-3) - Comprimir
+- Ficheros .tar.gz
+  - Comprimir
 ```
 tar -czvf fichero.tar.gz /directorio/a/empaquetar
 ```
-### [](#header-3) - Descomprimir
+  - Descomprimir
 ```
 tar -xzvf fichero.tar.gz
 ```
