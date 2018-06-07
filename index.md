@@ -3,7 +3,7 @@ layout: default
 ---
 
 # [](#header-1)Bienvenid@s a la pagina de **Juan José**.
-### En esta pagina conoceras diferentes curiosidades relacionadas con la informática, siendo utiles para el día a día en la administración de tu sistema Linux.
+### En esta pagina encontraras utilidades relacionadas con la informática, siendo utiles para la administración de tu sistema Linux.
 
 ### Enlaces de la pagina:
 
