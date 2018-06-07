@@ -2,7 +2,7 @@
 layout: default
 ---
 
-# [](#header-1)Comprimir y Descomprimir en tar, zip, .gz y .tar.gz en Linux.
+# [](#header-1)Comprimir y Descomprimir en .tar, .zip, .gz y .tar.gz en Linux.
 ***
 
 En esta publicación vamos a ver de forma breve como vamos a comprimir y descomprimir los formatos mas habituales mediante línea de comandos en Linux.
