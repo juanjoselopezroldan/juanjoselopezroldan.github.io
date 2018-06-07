@@ -10,7 +10,7 @@ En esta publicación vamos a ver de forma breve como vamos a comprimir y descomp
 ## [](#header-2)Ficheros .tar
 ### [](#header-3) Comprimir
 ```
-tar -cvf fichero.tar /carpeta/a/empaquetar
+tar -cvf fichero.tar /directorio/a/empaquetar
 ```
 ### [](#header-3) Descomprimir
 ```
@@ -20,31 +20,31 @@ tar -xvf fichero.tar
 ## [](#header-2)Ficheros .zip
 ### [](#header-3) Comprimir
 ```
-zip fichero.zip
+zip fichero.zip directorio
 ```
 ### [](#header-3) Descomprimir
 ```
-unzip 
+unzip fichero.zip
 ```
 
 ## [](#header-2)Ficheros .gz
 ### [](#header-3) Comprimir
 ```
-gzip -9
+gzip -9 fichero.txt
 ```
 ### [](#header-3) Descomprimir
 ```
-gzip -d
+gzip -d fichero.txt.gz
 ```
 
 
 ## [](#header-2)Ficheros .tar.gz
 ### [](#header-3) Comprimir
 ```
-tar -czvf
+tar -czvf fichero.tar.gz /directorio/a/empaquetar
 ```
 ### [](#header-3) Descomprimir
 ```
-tar -xzvf
+tar -xzvf fichero.tar.gz
 ```
 
