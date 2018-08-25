@@ -11,4 +11,5 @@ layout: default
 * [Uso Básico de GitHub por linea de comandos con Git (Linux)](contenido/github)
 * [Uso básico de Vi/Vim](contenido/vi)
 * [Comprimir y Descomprimir en .tar, .zip, .gz y .tar.gz en Linux](contenido/tar)
+* [Eliminar todas las imagenes y contenedores en Docker](contenido/docker-rm)
 <hr/>
