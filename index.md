@@ -7,6 +7,10 @@ layout: default
 
 ### Enlaces de la pagina:
 
+# [](#header-2) 2019
+* [Deploy Cert-Manager in Kubernetes](contenido/deploy-cert-manager)
+
+# [](#header-2) 2018
 
 * [Uso Básico de GitHub por linea de comandos con Git (Linux)](contenido/github)
 * [Uso básico de Vi/Vim](contenido/vi)
