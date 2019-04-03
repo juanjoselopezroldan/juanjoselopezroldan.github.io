@@ -8,12 +8,12 @@ layout: default
 ### Enlaces de la pagina:
 
 # [](#header-2) 2019
-* [Deploy Cert-Manager in Kubernetes](contenido/deploy-cert-manager)
+* [Deploy Cert-Manager in Kubernetes](content/2019/deploy-cert-manager)
 
 # [](#header-2) 2018
 
-* [Uso Básico de GitHub por linea de comandos con Git (Linux)](contenido/github)
-* [Uso básico de Vi/Vim](contenido/vi)
-* [Comprimir y Descomprimir en .tar, .zip, .gz y .tar.gz en Linux](contenido/tar)
-* [Eliminar todas las imagenes y contenedores en Docker](contenido/docker-rm)
+* [Uso Básico de GitHub por linea de comandos con Git (Linux)](content/2018/github)
+* [Uso básico de Vi/Vim](content/2018/vi)
+* [Comprimir y Descomprimir en .tar, .zip, .gz y .tar.gz en Linux](content/2018/tar)
+* [Eliminar todas las imagenes y contenedores en Docker](content/2018/docker-rm)
 <hr/>
