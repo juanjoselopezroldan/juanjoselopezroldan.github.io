@@ -79,8 +79,9 @@ nano​ ​ production-issuer.yaml
 
 kubectl create -f production-issuer.yaml -n "namespace-desired"
 ```
-    * File two (Deploy for development).
-    
+
+   * File two (Deploy for development).
+
 ```
 wget https://raw.githubusercontent.com/jetstack/cert-manager/release-0.7/docs/tutorials/acme/quick-start/example/staging-issuer.yaml
 
