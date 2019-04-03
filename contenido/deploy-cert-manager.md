@@ -128,3 +128,11 @@ kubectl create -f staging-issuer.yaml -n "namespace-desired"
 ![Alt Text](../assets/image/secret-cert-manager-namespace-with-ssl.png)
 
 
+__If we do not have to deploy the nginx-ingress, the following command allow us to deploy the basic nginx-ingress being compatible with the  cert-manager.__
+
+```
+helm install --name ingress-nginx --namespace ingress-nginx stable/nginx-ingress
+```
+
+
+
