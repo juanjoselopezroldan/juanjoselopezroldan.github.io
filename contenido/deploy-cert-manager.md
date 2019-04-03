@@ -53,8 +53,9 @@ certificate SSL (it depends of if is production or development, we download the 
 wget
 https://raw.githubusercontent.com/jetstack/cert-manager/release-0.7/docs/tut
 orials/acme/quick-start/example/production-issuer.yaml
-```
-```
+
+-------------------------
+
 nano​ ​ production-issuer.yaml
 
    apiVersion: certmanager.k8s.io/v1alpha1
@@ -73,16 +74,17 @@ nano​ ​ production-issuer.yaml
        # Enable the HTTP-01 challenge provider
        http01: {}
 
-```
-```
+-------------------------
+
 kubectl create -f production-issuer.yaml -n "namespace-desired"
 ```
 
   2. File two (Deploy for development).
 ```
 wget https://raw.githubusercontent.com/jetstack/cert-manager/release-0.7/docs/tutorials/acme/quick-start/example/staging-issuer.yaml
-```
-```
+
+-------------------------
+
 nano staging-issuer.yaml
 
    apiVersion: certmanager.k8s.io/v1alpha1
@@ -100,8 +102,9 @@ nano staging-issuer.yaml
          name: letsencrypt-staging
        # Enable the HTTP-01 challenge provider
        http01: {}
-```
-```
+
+-------------------------
+
 kubectl create -f staging-issuer.yaml -n "namespace-desired"
 ```
 
