@@ -49,7 +49,7 @@ next file and we deploy in the namespace in the that want add the
 certificate SSL (it depends of if is production or development, we download the file one or the file two and once to edited, we deploy with the next command).
 
   1. File on (Deploy for production).
-  
+
 ```
 wget
 https://raw.githubusercontent.com/jetstack/cert-manager/release-0.7/docs/tut
