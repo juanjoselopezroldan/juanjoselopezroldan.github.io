@@ -123,3 +123,8 @@ kubectl create -f staging-issuer.yaml -n "namespace-desired"
 
 ![Alt Text](../assets/image/events-cert-manager.png) 
 
+ - For to check correctly that it generated the SSL. We have to check the secret that were generated with the command of kubectl:
+
+![Alt Text](../assets/image/secret-cert-manager-namespace-with-ssl.png)
+
+
