@@ -3,9 +3,9 @@ layout: default
 ---
 
 # [](#header-1)Bienvenid@s a la pagina de **Juan José**.
-### En esta pagina encontraras utilidades relacionadas con la informática, siendo utiles para la administración de tu sistema Linux.
+### This page to find utils related with the computing, being utils for the administration of system Linuxpara la administración de tu sistema Linux.
 
-### Enlaces de la pagina:
+### Link of the page:
 
 # [](#header-2) 2019
 * [Deploy Cert-Manager in Kubernetes](content/2019/deploy-cert-manager)
