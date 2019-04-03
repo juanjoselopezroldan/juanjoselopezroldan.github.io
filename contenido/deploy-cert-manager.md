@@ -48,7 +48,7 @@ cert-manager-webhook-6f58884b96-7lfcj       1/1        Running   0          1m
 next file and we deploy in the namespace in the that want add the
 certificate SSL (it depends of if is production or development, we download the file one or the file two and once to edited, we deploy with the next command).
 
-  1. File on (Deploy for production).
+  * File on (Deploy for production).
 
 ```
 wget
@@ -80,7 +80,7 @@ nano​ ​ production-issuer.yaml
 kubectl create -f production-issuer.yaml -n "namespace-desired"
 ```
 
-  2. File two (Deploy for development).
+  * File two (Deploy for development).
 
 ```
 wget https://raw.githubusercontent.com/jetstack/cert-manager/release-0.7/docs/tutorials/acme/quick-start/example/staging-issuer.yaml
