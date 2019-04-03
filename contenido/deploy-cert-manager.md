@@ -53,7 +53,6 @@ wget
 https://raw.githubusercontent.com/jetstack/cert-manager/release-0.7/docs/tut
 orials/acme/quick-start/example/production-issuer.yaml
 ```
-
 ```
 nano​ ​ production-issuer.yaml
 
@@ -74,17 +73,14 @@ nano​ ​ production-issuer.yaml
        http01: {}
 
 ```
-
 ```
 kubectl create -f production-issuer.yaml -n "namespace-desired"
 ```
 
   2. File two (Deploy for development).
-
 ```
 wget https://raw.githubusercontent.com/jetstack/cert-manager/release-0.7/docs/tutorials/acme/quick-start/example/staging-issuer.yaml
 ```
-
 ```
 nano staging-issuer.yaml
 
@@ -104,7 +100,6 @@ nano staging-issuer.yaml
        # Enable the HTTP-01 challenge provider
        http01: {}
 ```
-
 ```
 kubectl create -f staging-issuer.yaml -n "namespace-desired"
 ```
@@ -121,11 +116,11 @@ kubectl create -f staging-issuer.yaml -n "namespace-desired"
 
  - When already beech finish to deploy the issuer and to edited the ingress, We see the events of deployment or replication-controller of page and  we check that the pod of cert-manager already to verified the page and for that already have of certificate:
 
-![Alt Text](../assets/image/events-cert-manager.png) 
+![Alt Text](../assets/images/events-cert-manager.png) 
 
  - For to check correctly that it generated the SSL. We have to check the secret that were generated with the command of kubectl:
 
-![Alt Text](../assets/image/secret-cert-manager-namespace-with-ssl.png)
+![Alt Text](../assets/images/secret-cert-manager-namespace-with-ssl.png)
 
 
 __If we do not have to deploy the nginx-ingress, the following command allow us to deploy the basic nginx-ingress being compatible with the  cert-manager.__
