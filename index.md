@@ -2,7 +2,7 @@
 layout: default
 ---
 
-# [](#header-1)Bienvenid@s a la pagina de **Juan José**.
+# [](#header-1)Welcome to **Juan José** page.
 ### This page to find utils related with the computing, being utils for the administration of system Linuxpara la administración de tu sistema Linux.
 
 ### Link of the page:
