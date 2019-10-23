@@ -89,7 +89,7 @@ nano tmp.json
 kubectl proxy
 ```
 
-	This command executed must show the following information:
+This command executed must show the following information:
 
 ```
 Starting to serve on 127.0.0.1:8001
@@ -101,7 +101,7 @@ Starting to serve on 127.0.0.1:8001
 curl -k -H "Content-Type: application/json" -X PUT --data-binary @tmp.json http://127.0.0.1:8001/api/v1/namespaces/<terminating-namespace>/finalize
 ```
 
-	This command executed must show the following information:
+This command executed must show the following information:
 
 ```
 {
