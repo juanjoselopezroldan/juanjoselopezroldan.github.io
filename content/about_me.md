@@ -3,7 +3,7 @@ layout: default
 ---
 
 # [](#header-1)About me.
-# [](#header-2)Information over Juanjo
+# [](#header-2)Information over Juan José
 ***
 Hello to all this page will show diferents utils related with the ambit of computing for the easy use of operative system Linux.
 <dl>
