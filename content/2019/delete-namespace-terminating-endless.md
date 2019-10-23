@@ -2,7 +2,7 @@
 layout: default
 ---
 
-# [](#header-1) Delete namespaces in state terminating permanent
+# [](#header-1) Delete namespaces in state terminating permanent in Kubernetes
 Sometimes when we go to delete a namespace and this namespace is in state terminating permanently, we have that to do the next steps for delete definitly of our cluster of Kubernetes.
 
 - State in that this the namespace:
