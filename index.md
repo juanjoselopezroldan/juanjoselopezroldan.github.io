@@ -7,6 +7,9 @@ layout: default
 
 ### Link of the page:
 
+# [](#header-2) 2020
+* [TMOUT To Automatically Log Users Out](content/2020/log_out_due_to_downtime)
+
 # [](#header-2) 2019
 * [Deploy Cert-Manager in Kubernetes](content/2019/deploy-cert-manager)
 * [Delete namespaces in state terminating permanent in Kubernetes](content/2019/delete-namespace-terminating-endless)
