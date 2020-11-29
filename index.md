@@ -9,6 +9,8 @@ layout: default
 
 # [](#header-2) 2020
 * [TMOUT To Automatically Log Users Out](content/2020/log_out_due_to_downtime)
+* [Enable port in Centos, RedHat or system with firewall and selinux](content/2020/enable_port_in centos_or_REDHAT)
+
 
 # [](#header-2) 2019
 * [Deploy Cert-Manager in Kubernetes](content/2019/deploy-cert-manager)
